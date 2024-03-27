@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+#navbar {
+    height: fit-content;
+    border-right: 2px solid grey;
+    position: fixed;
+}
+
+#navbar ul {
+    height: 80%;
+    padding: 0;
+    line-height: 1.5;
+    overflow-y: scroll;
+}
+
+#navbar li {
+    list-style-type: none;
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+}
+
+#navbar header {
+    position: sticky;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 30px;
+}
+
+#main-doc {
+    margin-left: 40%;
+    padding: 30px 20px;
+}
+
+section header {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+section p,
+section li {
+    padding-left: 10px;
+}
+
+code {
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+}
